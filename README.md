@@ -18,10 +18,10 @@ composer require redaxmedia/php-coding-standard
 Usage
 -----
 
-Refer the coding standard inside your `ruleset.xml` file:
+Refer the coding standard inside your `phpcs.xml` file:
 
 ```xml
 <ruleset>
-	<rule ref="vendor/redaxmedia/php-coding-standard/ruleset.xml" />
+	<rule ref="vendor/redaxmedia/php-coding-standard/phpcs.xml" />
 </ruleset>
 ```
