@@ -6,7 +6,6 @@
 	"license": "GPL-3.0-only",
 	"require":
 	{
-		"php": "^7.0",
 		"pheromone/phpcs-security-audit": "2.0.0",
 		"slevomat/coding-standard": "4.5.2"
 	}
