@@ -12,6 +12,7 @@
 	<rule ref="Generic.CodeAnalysis.UnusedFunctionParameter" />
 	<rule ref="Generic.CodeAnalysis.UselessOverridingMethod" />
 	<rule ref="Generic.ControlStructures.InlineControlStructure" />
+	<rule ref="Generic.PHP.ForbiddenFunctions" />
 	<rule ref="Generic.Formatting.DisallowMultipleStatements" />
 	<rule ref="Generic.Files.ByteOrderMark" />
 	<rule ref="Generic.Files.LineEndings" />
@@ -58,7 +59,6 @@
 	<rule ref="Squiz.Arrays.ArrayBracketSpacing" />
 	<rule ref="Squiz.PHP.Eval" />
 	<rule ref="Squiz.PHP.DiscouragedFunctions" />
-	<rule ref="Squiz.PHP.ForbiddenFunctions" />
 	<rule ref="Squiz.PHP.GlobalKeyword" />
 	<rule ref="Squiz.PHP.NonExecutableCode" />
 	<rule ref="Squiz.Scope.MemberVarScope" />
