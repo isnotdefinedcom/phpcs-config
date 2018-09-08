@@ -40,11 +40,9 @@
 
 	<!-- inherit from slevomat -->
 
-	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Functions/UnusedParameterSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/AlphabeticallySortedUsesSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/ReferenceUsedNamesOnlySniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/UnusedUsesSniff.php" />
-	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces.UselessAlias" />
 
 	<!-- inherit from psr1 -->
 
