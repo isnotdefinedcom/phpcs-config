@@ -40,8 +40,14 @@
 
 	<!-- inherit from slevomat -->
 
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/AlphabeticallySortedUsesSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/ReferenceUsedNamesOnlySniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/UnusedUsesSniff.php" />
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/TypeHintDeclarationSniff.php">
+		<properties>
+			<property name="enableVoidTypeHint" value="false" />
+		</properties>
+	</rule>
 
 	<!-- inherit from psr1 -->
 
