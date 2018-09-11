@@ -48,6 +48,12 @@
 			<property name="enableVoidTypeHint" value="false" />
 		</properties>
 	</rule>
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/ReturnTypeHintSpacingSniff.php">
+		<properties>
+			<property name="spacesCountBeforeColon" value="1" />
+			<property name="spacesCountAfterColon" value="1" />
+		</properties>
+	</rule>
 
 	<!-- inherit from psr1 -->
 
