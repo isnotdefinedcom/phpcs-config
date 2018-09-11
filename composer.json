@@ -1,7 +1,7 @@
 {
 	"name": "redaxmedia/php-coding-standard",
 	"description": "Yet another PHP coding standard",
-	"version": "1.2.0",
+	"version": "1.1.2",
 	"homepage": "https://redaxmedia.com",
 	"license": "GPL-3.0-only",
 	"require":
