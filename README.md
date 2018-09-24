@@ -26,7 +26,7 @@ Refer the coding standard inside your `phpcs.xml` file:
 </ruleset>
 ```
 
-Exclude controversial `TypeHintDeclaration` rules as needed:
+Exclude controversial `TypeHintDeclaration` rules:
 
 ```xml
 <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingTraversableReturnTypeHintSpecification">
