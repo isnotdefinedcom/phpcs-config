@@ -7,6 +7,6 @@
 	"require":
 	{
 		"pheromone/phpcs-security-audit": "2.0.0",
-		"slevomat/coding-standard": "4.7.3"
+		"slevomat/coding-standard": "4.8.5"
 	}
 }
