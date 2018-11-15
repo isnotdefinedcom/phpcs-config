@@ -1,12 +1,12 @@
 {
 	"name": "redaxmedia/php-coding-standard",
 	"description": "Yet another PHP coding standard",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"homepage": "https://redaxmedia.com",
 	"license": "GPL-3.0-only",
 	"require":
 	{
 		"pheromone/phpcs-security-audit": "2.0.0",
-		"slevomat/coding-standard": "4.8.5"
+		"slevomat/coding-standard": "4.8.6"
 	}
 }
