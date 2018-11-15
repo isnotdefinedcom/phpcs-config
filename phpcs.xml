@@ -42,8 +42,11 @@
 
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/ModernClassNameReferenceSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/AlphabeticallySortedUsesSniff.php" />
-	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/FullyQualifiedGlobalFunctionsSniff.php" />
-	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/ReferenceUsedNamesOnlySniff.php" />
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/ReferenceUsedNamesOnlySniff.php">
+		<properties>
+			<property name="allowFallbackGlobalFunctions" value="false"></property>
+		</properties>
+	</rule>
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/UnusedUsesSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/TypeHintDeclarationSniff.php">
 		<properties>
