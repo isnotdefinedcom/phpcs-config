@@ -48,11 +48,7 @@
 		</properties>
 	</rule>
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/UnusedUsesSniff.php" />
-	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/TypeHintDeclarationSniff.php">
-		<properties>
-			<property name="enableVoidTypeHint" value="false" />
-		</properties>
-	</rule>
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/TypeHintDeclarationSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/ReturnTypeHintSpacingSniff.php">
 		<properties>
 			<property name="spacesCountBeforeColon" value="1" />
