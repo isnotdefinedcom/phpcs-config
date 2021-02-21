@@ -25,17 +25,3 @@ Refer the coding standard inside your `phpcs.xml` file:
 	<rule ref="vendor/redaxmedia/php-coding-standard/phpcs.xml" />
 </ruleset>
 ```
-
-Exclude controversial `TypeHintDeclaration` rules:
-
-```xml
-<rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingTraversableReturnTypeHintSpecification">
-	<exclude-pattern>*</exclude-pattern>
-</rule>
-<rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingTraversableParameterTypeHintSpecification">
-	<exclude-pattern>*</exclude-pattern>
-</rule>
-<rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingTraversablePropertyTypeHintSpecification">
-	<exclude-pattern>*</exclude-pattern>
-</rule>
-```
