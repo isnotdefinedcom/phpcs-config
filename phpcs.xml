@@ -40,8 +40,11 @@
 	<!-- inherit from slevomat -->
 
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/ClassConstantVisibilitySniff.php" />
-	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/UnusedPrivateElementsSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/ModernClassNameReferenceSniff.php" />
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/RequireConstructorPropertyPromotionSniff.php" />
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/UnusedPrivateElementsSniff.php" />
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/RequireNullCoalesceOperatorSniff.php" />
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/RequireNullCoalesceEqualOperatorSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/RequireShortTernaryOperatorSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Functions/UnusedParameterSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Functions/UselessParameterDefaultValueSniff.php" />
@@ -67,6 +70,7 @@
 			<property name="spacesCountAfterColon" value="1" />
 		</properties>
 	</rule>
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/UnionTypeHintFormatSniff.php" />
 
 	<!-- inherit from psr1 -->
 
