@@ -64,6 +64,8 @@
 		</properties>
 	</rule>
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/UnionTypeHintFormatSniff.php" />
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Variables/DuplicateAssignmentToVariableSniff.php" />
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Variables/UnusedVariableSniff.php" />
 
 	<!-- inherit from psr1 -->
 
