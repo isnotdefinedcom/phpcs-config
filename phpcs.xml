@@ -11,7 +11,6 @@
 	<rule ref="Generic.CodeAnalysis.UnconditionalIfStatement" />
 	<rule ref="Generic.CodeAnalysis.UselessOverridingMethod" />
 	<rule ref="Generic.ControlStructures.InlineControlStructure" />
-	<rule ref="Generic.PHP.ForbiddenFunctions" />
 	<rule ref="Generic.Formatting.DisallowMultipleStatements" />
 	<rule ref="Generic.Files.ByteOrderMark" />
 	<rule ref="Generic.Files.LineEndings" />
@@ -32,17 +31,11 @@
 		</properties>
 	</rule>
 
-	<!-- inherit from pheromone -->
-
-	<rule ref="vendor/pheromone/phpcs-security-audit/Security/Sniffs/BadFunctions/EasyXSSSniff.php" />
-	<rule ref="vendor/pheromone/phpcs-security-audit/Security/Sniffs/BadFunctions/SQLFunctionsSniff.php" />
-
 	<!-- inherit from slevomat -->
 
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/ClassConstantVisibilitySniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/ModernClassNameReferenceSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/RequireConstructorPropertyPromotionSniff.php" />
-	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/UnusedPrivateElementsSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/RequireNullCoalesceOperatorSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/RequireNullCoalesceEqualOperatorSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/RequireShortTernaryOperatorSniff.php" />

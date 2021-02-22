@@ -7,7 +7,6 @@
 	"minimum-stability": "dev",
 	"require":
 	{
-		"pheromone/phpcs-security-audit": "2.0.1",
 		"slevomat/coding-standard": "dev-master"
 	}
 }
