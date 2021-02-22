@@ -65,7 +65,11 @@
 	</rule>
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/UnionTypeHintFormatSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Variables/DuplicateAssignmentToVariableSniff.php" />
-	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Variables/UnusedVariableSniff.php" />
+	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Variables/UnusedVariableSniff.php">
+		<properties>
+			<property name="ignoreUnusedValuesWhenOnlyKeysAreUsedInForeach" value="true" />
+		</properties>
+	</rule>
 
 	<!-- inherit from psr1 -->
 
