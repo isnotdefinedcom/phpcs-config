@@ -44,7 +44,7 @@
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/AlphabeticallySortedUsesSniff.php" />
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/ReferenceUsedNamesOnlySniff.php">
 		<properties>
-			<property name="allowFallbackGlobalFunctions" value="false"></property>
+			<property name="allowFallbackGlobalFunctions" value="false" />
 		</properties>
 	</rule>
 	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/RequireOneNamespaceInFileSniff.php" />
