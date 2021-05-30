@@ -4,9 +4,8 @@
 	"version": "2.0.0",
 	"homepage": "https://redaxmedia.com",
 	"license": "MIT",
-	"minimum-stability": "dev",
 	"require":
 	{
-		"slevomat/coding-standard": "dev-master"
+		"slevomat/coding-standard": "7.0.8"
 	}
 }
