@@ -1,11 +1,11 @@
 {
-	"name": "redaxmedia/php-coding-standard",
+	"name": "isnotdefined/phpcs-config",
 	"description": "Yet another PHP coding standard",
 	"version": "2.0.0",
 	"homepage": "https://redaxmedia.com",
 	"license": "MIT",
 	"require":
 	{
-		"slevomat/coding-standard": "7.0.8"
+		"slevomat/coding-standard": "7.1.0"
 	}
 }

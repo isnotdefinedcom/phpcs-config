@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Redaxmedia">
+<ruleset name="isnotdefined">
 	<description>Yet another PHP coding standard</description>
 
 	<!-- inherit from generic -->

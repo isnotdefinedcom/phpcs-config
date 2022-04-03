@@ -1,17 +1,17 @@
-PHP Coding Standard
-===================
+PHPCS Config
+============
 
 > Yet another PHP coding standard.
 
-[![Packagist Version](https://img.shields.io/packagist/v/redaxmedia/php-coding-standard.svg)](https://packagist.org/packages/redaxmedia/php-coding-standard)
-[![License](https://img.shields.io/packagist/l/redaxmedia/php-coding-standard.svg)](https://packagist.org/packages/redaxmedia/php-coding-standard)
+[![Packagist Version](https://img.shields.io/packagist/v/isnotdefined/phpcs-config.svg)](https://packagist.org/packages/isnotdefined/phpcs-config)
+[![License](https://img.shields.io/packagist/l/isnotdefined/phpcs-config.svg)](https://packagist.org/packages/isnotdefined/phpcs-config)
 
 
 Installation
 ------------
 
 ```
-composer require redaxmedia/php-coding-standard
+composer require isnotdefined/phpcs-config
 ```
 
 
@@ -22,6 +22,6 @@ Refer the coding standard inside your `phpcs.xml` file:
 
 ```xml
 <ruleset>
-	<rule ref="vendor/redaxmedia/php-coding-standard/phpcs.xml" />
+	<rule ref="vendor/isnotdefined/phpcs-config/phpcs.xml" />
 </ruleset>
 ```
